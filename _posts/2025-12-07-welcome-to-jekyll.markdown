@@ -1,29 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-12-07 11:36:13 +0000
-categories: jekyll update
+title:  "What is this all about then?"
+date:   2025-12-07
+categories: Categorical Probability
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Categorical Probability Theory applies one area of maths (Category Theory) to another (Probability Theory). With the hope that this will give us some serious benefits: diagramtic languages, greater abstraction and proof generalisation, applicability to Probabilistic programming languages etc. It's a very cool field and one which is full of surprises.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+My masters dissertation 'Applications of Monoidal Topology to Categorical Probability Theory' (I admit its a bit of a mouthful) is about using category theory to translate ideas from topology into probability. This gives us some objects that are weird from the point of view of standard probability theory but keep reappearing in different places (quasi-baysianism, infra-Baysianism ,imprecise probability). To get the ideas from my dissertation straight in my head, I'm going to write a few blog posts about them. Hope you enjoy!
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+Some prerequisites: you need to know what a monad is, and prefereably an algebra of a monad... I think this + the basic category theory that comes with it should be enough but I guess we'll find out later on! 
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
