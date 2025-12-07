@@ -7,7 +7,21 @@
 /* === Your custom CSS overrides go below === */
 
 .site-header {
-  background: yellow;
+  background: #FFF4BC;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.site-footer {
+  background: #FFF4BC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #FFF4BC;
+}
+
+a:hover {
+  color: gold;
 }
