@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
     {% if page.math %}{% include math.html %}{% endif %}
   </head>
   <body>
-    <a class="skip-link" href="#content">Lorem ipsum</a>
+    <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
       <div class="shell header-inner">
         <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <nav aria-label="Primary navigation">
-          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Lorem</a>
-          <a href="{{ '/writing/' | relative_url }}"{% if page.url contains '/writing/' %} aria-current="page"{% endif %}>Ipsum</a>
-          <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Dolor</a>
-          <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>Sit</a>
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/writing/' | relative_url }}"{% if page.url contains '/writing/' %} aria-current="page"{% endif %}>Writing</a>
+          <a href="{{ '/research/' | relative_url }}"{% if page.url == '/research/' %} aria-current="page"{% endif %}>Research</a>
+          <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
         </nav>
       </div>
     </header>
@@ -28,11 +28,11 @@
 
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <p>© {{ 'now' | date: '%Y' }} Lorem Ipsum</p>
+        <p>© {{ 'now' | date: '%Y' }} Will Jump</p>
         <div>
-          <a href="https://github.com/{{ site.author.github }}">Lorem</a>
-          <a href="{{ '/feed.xml' | relative_url }}">Ipsum</a>
-          <a href="mailto:{{ site.author.email }}">Dolor</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+          <a href="mailto:{{ site.author.email }}">Email</a>
         </div>
       </div>
     </footer>

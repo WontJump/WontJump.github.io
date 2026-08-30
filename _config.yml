@@ -1,4 +1,4 @@
-title: Lorem Ipsum
+title: Will Jump
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 url: "https://wontjump.github.io"
 baseurl: ""
@@ -6,7 +6,7 @@ lang: en-GB
 timezone: Asia/Singapore
 
 author:
-  name: Lorem Ipsum
+  name: Will Jump
   email: jumpwillem@gmail.com
   github: WontJump
 
