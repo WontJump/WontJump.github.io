@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post h-entry">
+  <header class="post-header">
+    <a class="back-link" href="{{ '/writing/' | relative_url }}">← Writing</a>
+    <h1 class="p-name">{{ page.title }}</h1>
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+  </header>
+  <div class="prose e-content">
+    {{ content }}
+  </div>
+</article>
+

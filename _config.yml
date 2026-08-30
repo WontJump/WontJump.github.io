@@ -1,0 +1,35 @@
+title: Will Jump
+description: Notes on computer science, mathematics, and categorical probability.
+url: "https://wontjump.github.io"
+baseurl: ""
+lang: en-GB
+timezone: Asia/Singapore
+
+author:
+  name: Will Jump
+  email: jumpwillem@gmail.com
+  github: WontJump
+
+permalink: /writing/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      math: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
