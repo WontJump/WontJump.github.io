@@ -1,24 +1,23 @@
 ---
 layout: page
-title: Research
+title: Ipsum
 permalink: /research/
-description: Research interests and current work by Will Jump.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
-My research sits between theoretical computer science and mathematics. I am especially interested in how abstract structure can clarify probability, semantics, and reasoning under uncertainty.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-## Interests
+## Dolor sit amet
 
-- Categorical probability and probabilistic programming
-- Category theory and monads
-- Topological and order-theoretic methods in probability
-- Imprecise probability and non-classical models of uncertainty
+- Consectetur adipiscing elit
+- Vestibulum id ligula porta felis
+- Aenean lacinia bibendum nulla
+- Cras mattis consectetur purus
 
-## Current direction
+## Consectetur adipiscing
 
-My earlier work explored applications of monoidal topology to categorical probability theory: translating ideas from topology into probability through categorical structure. This site will collect accessible accounts of that work and notes from my PhD research as it develops.
+Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
 
-## Selected work
+## Integer posuere
 
-Publications, preprints, talks, and software will be listed here. Until then, the [writing page]({{ '/writing/' | relative_url }}) contains informal explanations and research notes.
-
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. [Aenean lacinia]({{ '/writing/' | relative_url }}) bibendum nulla sed consectetur.

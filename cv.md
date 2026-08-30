@@ -1,41 +1,40 @@
 ---
 layout: page
-title: Curriculum vitæ
+title: Sit amet
 permalink: /cv/
-description: Curriculum vitæ of Will Jump.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
-<p class="page-intro">PhD student in computer science, working across category theory and probability.</p>
+<p class="page-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 <div class="cv-contact">
-  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-  <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
+  <a href="mailto:{{ site.author.email }}">Lorem ipsum</a>
+  <a href="https://github.com/{{ site.author.github }}">Dolor sit amet</a>
 </div>
 
-## Education
+## Consectetur
 
 <div class="cv-entry">
   <div>
-    <strong>PhD in Computer Science</strong>
-    <p>Research in theoretical computer science and mathematics.</p>
+    <strong>Lorem ipsum dolor</strong>
+    <p>Consectetur adipiscing elit, sed do eiusmod tempor.</p>
   </div>
-  <span>Current</span>
+  <span>Lorem</span>
 </div>
 
 <div class="cv-entry">
   <div>
-    <strong>Mathematics and Computer Science</strong>
-    <p>University of Oxford · Master’s dissertation: <em>Applications of Monoidal Topology to Categorical Probability Theory</em>.</p>
+    <strong>Sit amet consectetur</strong>
+    <p>Adipiscing elit · Sed do eiusmod tempor: <em>Incididunt ut labore et dolore magna aliqua</em>.</p>
   </div>
 </div>
 
-## Research interests
+## Adipiscing elit
 
-Categorical probability · Category theory · Probabilistic programming · Imprecise probability · Mathematical foundations of computer science
+Lorem ipsum · Dolor sit amet · Consectetur adipiscing · Elit sed do · Eiusmod tempor incididunt
 
-## Publications and talks
+## Sed do eiusmod
 
-This section is ready for publications, preprints, posters, and invited talks. Add each item directly in this Markdown file.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-<p class="cv-note">Last updated {{ site.time | date: "%B %Y" }}. A print-friendly version is available through your browser’s print dialog.</p>
-
+<p class="cv-note">Lorem ipsum {{ site.time | date: "%B %Y" }}. Duis aute irure dolor in reprehenderit.</p>

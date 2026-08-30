@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Writing
+title: Dolor
 permalink: /writing/
-description: Essays and research notes by Will Jump.
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
-<p class="page-intro">Research notes, explanations, and longer-form thoughts.</p>
+<p class="page-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 <ol class="post-list post-list--full">
   {% for post in site.posts %}
@@ -18,4 +18,3 @@ description: Essays and research notes by Will Jump.
     </li>
   {% endfor %}
 </ol>
-

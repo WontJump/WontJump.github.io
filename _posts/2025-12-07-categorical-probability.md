@@ -1,20 +1,19 @@
 ---
-title: "What is categorical probability theory?"
-description: A short introduction to the ideas behind my earlier dissertation work.
+title: "Lorem ipsum dolor sit amet"
+description: Consectetur adipiscing elit, sed do eiusmod tempor incididunt.
 categories: [research, category-theory]
 ---
 
-Categorical probability theory applies tools from category theory to probability theory. The hope is that abstraction buys us something concrete: diagrammatic languages, reusable proofs, and a cleaner foundation for probabilistic programming.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-My master’s dissertation, *Applications of Monoidal Topology to Categorical Probability Theory*, used category theory to translate ideas from topology into probability. The translation produces objects that can look unusual from the perspective of standard probability, but which recur in quasi-Bayesianism, infra-Bayesianism, and imprecise probability.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. *Duis aute irure dolor in reprehenderit* in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-One useful starting point is the familiar identity
+Excepteur sint occaecat cupidatat non proident:
 
 \[
 P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \qquad P(B) > 0.
 \]
 
-Categorical probability asks which parts of probabilistic reasoning depend on the particular representation above, and which follow from deeper compositional structure.
+Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 
-I’ll use this blog to work through those ideas more carefully. Some familiarity with monads—and preferably Eilenberg–Moore algebras—will help, but I’ll try to state prerequisites as they arise.
-
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.

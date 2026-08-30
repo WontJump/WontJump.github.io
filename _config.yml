@@ -1,12 +1,12 @@
-title: Will Jump
-description: Notes on computer science, mathematics, and categorical probability.
+title: Lorem Ipsum
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 url: "https://wontjump.github.io"
 baseurl: ""
 lang: en-GB
 timezone: Asia/Singapore
 
 author:
-  name: Will Jump
+  name: Lorem Ipsum
   email: jumpwillem@gmail.com
   github: WontJump
 
