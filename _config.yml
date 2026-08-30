@@ -29,6 +29,7 @@ defaults:
       math: true
 
 exclude:
+  - AUTHORING.md
   - README.md
   - Gemfile
   - Gemfile.lock
